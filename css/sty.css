@@ -1,0 +1,190 @@
+body{
+    font-family: Tahoma , Arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+#header{
+    height: 150px;
+    background-image: url("../images/banner_nlu.jpg");
+    border: 2px solid #CDCDCD;
+}
+#header ul {
+    margin-left: 720px;
+    margin-top: 110px;
+    padding-top: 10px;
+    float:left;
+    width: 210px;
+}
+#header ul li{
+list-style: none;
+}
+
+#header ul li a{
+text-decoration: none;
+}
+#nav ul {
+    border: 1px solid #CDCDCD;
+    background-color: #F5F5F5;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 1px;
+}
+#nav ul li{
+    float : left;
+    width: 247px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+#nav ul li a:hover {
+    background: rgba(0, 0, 255, 0.28);
+    color: rgba(0, 0, 0, 0.69);
+}
+#left {
+    padding-top: 5px;
+
+}
+#left h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+    background: rgba(107, 195, 46, 0.6);;
+    line-height: 2;
+    font-size: 17px;
+    border-radius: 10px;
+}
+#left table {
+    background: rgba(0, 0, 255, 0.04);
+    width: 1000px;
+
+}
+#left table, th , td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+#left form {
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 165px;
+    width: 300px;
+}
+#righ {
+    width: 90%;
+}
+#form {
+    text-align: center;
+    background: white;
+    width: 100%;
+    padding-left: 100px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+#title{
+    padding-top: 85px;
+    padding-bottom: 35px;
+}
+#title span{
+    color: #4b2354;
+    font-size: 45px;
+    font-weight: bold;
+}
+.user-pass input{
+    cursor: pointer;
+    width: 445px;
+    height: 100px;
+    margin-bottom: 35px;
+    border-radius: 34px;
+    border: white;
+    box-shadow: 7px 6px 20px 8px rgba(0, 0, 0, 0.24);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.signin {
+    margin-bottom: 80px;
+}
+.signin #submit{
+    cursor: pointer;
+    background: #71d446;
+    width: 260px;
+    height: 80px;
+    border-radius: 50px;
+    border: #32d416;
+    box-shadow: 0px 9px 20px 0 #9cd42f;
+    color: white;
+    font-size: 20px;
+}
+.logintext{
+    color: #999999;
+    font-size: 24px;
+}
+.icon{
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 190px;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.left{
+    width: 85px;
+    height: 85px;
+    background: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.116);
+    float: left;
+    margin-left: 34%;
+    cursor: pointer;
+}
+.fa-facebook{
+    font-size: 65px;
+    margin-top: 10px;
+    color: #3b5998;
+}
+.right{
+    width: 85px;
+    height: 85px;
+    background: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.116);
+    float: right;
+    margin-right: 34%;
+    cursor: pointer;
+}
+
+#right h3 {
+    background: rgba(107, 195, 46, 0.6);;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 2;
+    border-radius: 10px;
+}
+#right table {
+    background: rgba(0, 0, 255, 0.05);
+    width: 1000px;
+}
+#right table span {
+    text-align: left;
+}
+#right form {
+    margin-left: 40%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
